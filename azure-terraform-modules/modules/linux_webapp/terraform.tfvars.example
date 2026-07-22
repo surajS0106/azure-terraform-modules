@@ -1,0 +1,9 @@
+name                = "example-linux-webapp-001"
+resource_group_name = "rg-webapps-prod-eastus"
+location            = "East US"
+app_service_plan_id = "/subscriptions/00000000-0000-0000-0000-000000000000/resourceGroups/rg-webapps-prod-eastus/providers/Microsoft.Web/serverfarms/asp-webapps-prod-eastus"
+# app_settings = {
+#   "WEBSITE_NODE_DEFAULT_VERSION"   = "~18"
+#   "ENVIRONMENT"                    = "production"
+#   "APPINSIGHTS_INSTRUMENTATIONKEY" = "your-app-insights-key"
+# }
